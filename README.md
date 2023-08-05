@@ -19,6 +19,6 @@ git clone https://github.com/namanrox/mvif--imdb.git
 in your GitBash or terminal of VS Code.
 - Run the command `cd mvif--imdb`
 - Run `npm install` to install all the dependencies.
-- Run `npm start` to start it on localhost:3000.
+- Run `npm start` to start it on localhost:3000/imdb.
 - Now you are set to use it locally.
 - **But in order to make it your own, change all the dependencies to your name.**
