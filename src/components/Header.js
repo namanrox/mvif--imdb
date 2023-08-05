@@ -71,6 +71,7 @@ const Header = () => {
           src={logoURL}
           alt="logo"
           onClick={() => navigate(routePath.home)}
+          style={{ cursor: "pointer" }}
         />
         <Box onClick={handleClick} ref={anchorRef}>
           <Menu />
@@ -96,7 +97,7 @@ const Header = () => {
           <BookmarkAdd />
           <Typography>Watchlist</Typography>
         </Box>
-        <Typography>Sign In</Typography>
+        <Typography style={{ cursor: "pointer" }}>Sign In</Typography>
         <Box>
           <Typography>EN</Typography>
           <ExpandMore />
